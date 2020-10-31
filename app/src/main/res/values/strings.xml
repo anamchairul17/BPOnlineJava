@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BPOnlineJava</string>
+    <string name="ptn">Sukses Tembus PTN</string>
+    <string name="uiitb">Sukses Tembus UI dan ITB</string>
+    <string name="akm11">Program Sukses AKM 11 SMA</string>
+    <string name="jago">Jago Bidang Studi</string>
+    <string name="seklan">Sukses Tembus Seklan Favorit</string>
+    <string name="akm8">Sukses AKM 4 SD dan 8 SMP</string>
+    <string name="menarik">Fasilitas Menarik</string>
+    <string name="testimoni">Apa Kata Pelanggan Tentang BP?</string>
+    <string name="description_ui_itb">Sukses Tembus UI dan ITB</string>
+</resources>
