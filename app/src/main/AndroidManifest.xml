@@ -15,14 +15,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BPOnlineJava">
-        <activity android:name=".ProgramSuksesAkm11Sma"></activity>
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ProgramSuksesAkm11Sma" />
         <activity android:name=".SuksesTembusPtnActivity" />
         <activity android:name=".SuksesAkm4Sd8SmpActivity" />
         <activity android:name=".SuksesTembusSeklanFavoritActivity" />
         <activity android:name=".JagoBidangStudiActivity" />
         <activity android:name=".DescriptionUiItbActivity" />
         <activity android:name=".AkmSmaActivity" />
-        <activity android:name=".LoginPageActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

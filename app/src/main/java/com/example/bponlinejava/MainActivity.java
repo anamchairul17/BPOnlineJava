@@ -37,8 +37,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Intent i = null;
-        if(v == tvProgramPaket){
-            i = new Intent(getApplicationContext(), MainActivity.class);
-        }
+        if(v == tvProgramPaket){ i = new Intent(getApplicationContext(), LoginActivity.class); }
+        if(v == ivSlideUiItb){ i = new Intent(getApplicationContext(), DescriptionUiItbActivity.class); }
+        if(v == ivSlideGetPtn){ i = new Intent(getApplicationContext(), SuksesTembusPtnActivity.class); }
+        if(v == ivSlideAkm11){ i = new Intent(getApplicationContext(), ProgramSuksesAkm11Sma.class); }
+        if(v == ivSlideMasterStudi){ i = new Intent(getApplicationContext(), JagoBidangStudiActivity.class); }
+        if(v == ivSlideNextSchool){ i = new Intent(getApplicationContext(), SuksesTembusSeklanFavoritActivity.class); }
+        if(v == ivSlideAKM48){ i = new Intent(getApplicationContext(), SuksesAkm4Sd8SmpActivity.class); }
     }
 }
