@@ -11,18 +11,20 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    TextView tvProgramPaket = (TextView) findViewById(R.id.tvProgramPacket);
-    ImageView ivSlideUiItb = (ImageView) findViewById(R.id.slideUiItb);
-    ImageView ivSlideGetPtn = (ImageView) findViewById(R.id.slideGetPTN);
-    ImageView ivSlideAkm11 = (ImageView) findViewById(R.id.slideAKM11);
-    ImageView ivSlideMasterStudi = (ImageView) findViewById(R.id.slideMasterStudy);
-    ImageView ivSlideNextSchool = (ImageView) findViewById(R.id.slideNextSchool);
-    ImageView ivSlideAKM48 = (ImageView) findViewById(R.id.slidAKM48);
-
+    TextView tvProgramPaket;
+    ImageView ivSlideUiItb, ivSlideGetPtn, ivSlideAkm11, ivSlideMasterStudi, ivSlideNextSchool, ivSlideAKM48;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        tvProgramPaket = (TextView) findViewById(R.id.tvProgramPacket);
+        ivSlideUiItb = (ImageView) findViewById(R.id.slideUiItb);
+        ivSlideGetPtn = (ImageView) findViewById(R.id.slideGetPTN);
+        ivSlideAkm11 = (ImageView) findViewById(R.id.slideAKM11);
+        ivSlideMasterStudi = (ImageView) findViewById(R.id.slideMasterStudy);
+        ivSlideNextSchool = (ImageView) findViewById(R.id.slideNextSchool);
+        ivSlideAKM48 = (ImageView) findViewById(R.id.slidAKM48);
 
         tvProgramPaket.setOnClickListener(this);
         ivSlideUiItb.setOnClickListener(this);
@@ -31,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ivSlideMasterStudi.setOnClickListener(this);
         ivSlideNextSchool.setOnClickListener(this);
         ivSlideAKM48.setOnClickListener(this);
-
     }
 
     @Override
