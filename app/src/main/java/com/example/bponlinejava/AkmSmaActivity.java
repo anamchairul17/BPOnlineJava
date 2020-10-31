@@ -8,9 +8,11 @@ import android.webkit.WebView;
 
 public class AkmSmaActivity extends AppCompatActivity {
 
+    WebView wv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_akm_sma);
+        
     }
 }
