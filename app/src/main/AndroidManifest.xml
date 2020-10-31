@@ -17,7 +17,6 @@
         android:theme="@style/Theme.BPOnlineJava">
         <activity android:name=".SignUpActivity"></activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".ProgramSuksesAkm11Sma" />
         <activity android:name=".SuksesTembusPtnActivity" />
         <activity android:name=".SuksesAkm4Sd8SmpActivity" />
         <activity android:name=".SuksesTembusSeklanFavoritActivity" />

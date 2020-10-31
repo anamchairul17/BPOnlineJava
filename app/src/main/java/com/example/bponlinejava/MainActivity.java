@@ -45,5 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(v == ivSlideMasterStudi){ i = new Intent(getApplicationContext(), JagoBidangStudiActivity.class); }
         if(v == ivSlideNextSchool){ i = new Intent(getApplicationContext(), SuksesTembusSeklanFavoritActivity.class); }
         if(v == ivSlideAKM48){ i = new Intent(getApplicationContext(), SuksesAkm4Sd8SmpActivity.class); }
+
+        startActivity(i);
     }
 }
